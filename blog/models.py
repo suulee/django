@@ -17,3 +17,6 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    def hello(self):
+        return self.text
